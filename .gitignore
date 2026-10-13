@@ -1,0 +1,23 @@
+# Sensitive or non-releasable local records
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.token
+*secret*
+*credential*
+*cookie*
+.private/
+private_native_diaries/
+private_review_links/
+third_party_raw/
+unpublished_reviewer_material/
+# Local generated artifacts
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+*.log
+*.tmp
+.DS_Store
