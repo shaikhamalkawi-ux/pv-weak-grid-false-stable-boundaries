@@ -1,0 +1,162 @@
+{
+  "operation": "post_hoc_descriptive_profile_cluster_resampling_sensitivity_no_PV_simulation",
+  "protocol_sha256": "a265f86ccb1b8b626aae0a8987ff1ddc82ea8325c4df4296a5c7b2a09c2de769",
+  "analysis_script_sha256": "7f61211fa5115ba07e8c96fdf6efcba6bd65a7cf4bfeb9a73b527737d29515a7",
+  "source_archive_sha256": "782d2a80ffe331671ebcd9474b2edb06b3f71dafdb9cd20cdb90f21d7ecec56e",
+  "source_ledger_sha256": "25dc10cc6cd95a95299475f5c4211ff2a741e2a3eb41b22e3ac68b6ea813f2c6",
+  "source_code_sha256": "2dfeb85afabb17264fbec9fbf78f6a0c9174449f9e6fde2f399004e9198ae035",
+  "original_manifest_entries_verified": 29,
+  "bootstrap_seed": 20260917,
+  "bootstrap_replicates": 10000,
+  "quantile_method": "linear",
+  "implementation": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1"
+  },
+  "family_inventory": {
+    "Cinv_axis": {
+      "rows": 21,
+      "case_identifiers": [
+        "Cinv_0.5",
+        "Cinv_0.6",
+        "Cinv_0.7",
+        "Cinv_0.8",
+        "Cinv_0.9",
+        "Cinv_1.0",
+        "Cinv_1.1",
+        "Cinv_1.2000000000000002",
+        "Cinv_1.3",
+        "Cinv_1.4",
+        "Cinv_1.5",
+        "Cinv_1.6",
+        "Cinv_1.7000000000000002",
+        "Cinv_1.8",
+        "Cinv_1.9",
+        "Cinv_2.0",
+        "Cinv_2.1",
+        "Cinv_2.2",
+        "Cinv_2.3",
+        "Cinv_2.4000000000000004",
+        "Cinv_2.5"
+      ],
+      "resampling_unit": "none; all deterministic rows fixed"
+    },
+    "PLL_axis": {
+      "rows": 4,
+      "case_identifiers": [
+        "PLL_0.5",
+        "PLL_1.0",
+        "PLL_1.5",
+        "PLL_2.0"
+      ],
+      "resampling_unit": "none; all deterministic rows fixed"
+    },
+    "correlated_positive": {
+      "rows": 32,
+      "profiles": 16,
+      "rows_per_profile": 2,
+      "profile_identifiers": [
+        "corr_s20260920_ell1.5_01",
+        "corr_s20260920_ell1.5_02",
+        "corr_s20260920_ell1.5_03",
+        "corr_s20260920_ell1.5_04",
+        "corr_s20260920_ell3_01",
+        "corr_s20260920_ell3_02",
+        "corr_s20260920_ell3_03",
+        "corr_s20260920_ell3_04",
+        "corr_s20260921_ell1.5_01",
+        "corr_s20260921_ell1.5_02",
+        "corr_s20260921_ell1.5_03",
+        "corr_s20260921_ell1.5_04",
+        "corr_s20260921_ell3_01",
+        "corr_s20260921_ell3_02",
+        "corr_s20260921_ell3_03",
+        "corr_s20260921_ell3_04"
+      ],
+      "delta_levels": [
+        0.2,
+        0.3
+      ],
+      "resampling_unit": "whole profile pair"
+    },
+    "unconstrained_random_new_seeds": {
+      "rows": 32,
+      "profiles": 16,
+      "rows_per_profile": 2,
+      "profile_identifiers": [
+        "20260915_random_01",
+        "20260915_random_02",
+        "20260915_random_03",
+        "20260915_random_04",
+        "20260915_random_05",
+        "20260915_random_06",
+        "20260915_random_07",
+        "20260915_random_08",
+        "20260916_random_01",
+        "20260916_random_02",
+        "20260916_random_03",
+        "20260916_random_04",
+        "20260916_random_05",
+        "20260916_random_06",
+        "20260916_random_07",
+        "20260916_random_08"
+      ],
+      "delta_levels": [
+        0.2,
+        0.3
+      ],
+      "resampling_unit": "whole profile pair"
+    }
+  },
+  "original_row_bootstrap_matches_archived": true,
+  "original_row_bootstrap_mean_interval_fraction": [
+    0.002889090334276522,
+    0.004433124417096149
+  ],
+  "original_row_bootstrap_p95_interval_fraction": [
+    0.0083523508759115,
+    0.0134877569875351
+  ],
+  "original_row_bootstrap_mean_interval_percent": [
+    0.2889090334276522,
+    0.4433124417096149
+  ],
+  "original_row_bootstrap_p95_interval_percent": [
+    0.83523508759115,
+    1.34877569875351
+  ],
+  "cluster_sensitivity_mean_interval_fraction": [
+    0.002876631114289539,
+    0.004435642507697884
+  ],
+  "cluster_sensitivity_p95_interval_fraction": [
+    0.009351666922085113,
+    0.0134281298617549
+  ],
+  "cluster_sensitivity_mean_interval_percent": [
+    0.2876631114289539,
+    0.4435642507697884
+  ],
+  "cluster_sensitivity_p95_interval_percent": [
+    0.9351666922085113,
+    1.34281298617549
+  ],
+  "unchanged_finite_set_statistics": {
+    "n_cases": 89,
+    "guard_fraction": 0.025,
+    "guard_failures": 0,
+    "mean_required_guard": 0.003634140707076968,
+    "p95_required_guard": 0.01293516002458638,
+    "max_required_guard": 0.0142367757190511,
+    "family_row_weights": {
+      "Cinv_axis": 0.23595505617977527,
+      "PLL_axis": 0.0449438202247191,
+      "correlated_positive": 0.3595505617977528,
+      "unconstrained_random_new_seeds": 0.3595505617977528
+    },
+    "required_guard_identity_check_max_error_without_replacement": 4.397524011601206e-16
+  },
+  "interpretation": "Descriptive profile-cluster resampling sensitivity intervals conditional on fixed deterministic grids and selected family weights; not population confidence intervals or failure-probability/guard guarantees.",
+  "changes_to_original_source_data_guard_models_or_case_partitions": false
+}

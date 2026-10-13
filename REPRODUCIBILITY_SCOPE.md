@@ -1,13 +1,9 @@
-# Reproducibility scope and claim boundaries
+# Reproducibility scope
 
-This **public** repository currently contains project documentation. No claim of full source-code release or complete end-to-end reproduction is made until the scientific files are separately reviewed and uploaded.
+**Directly replayable here:** The declared V24 89-case descriptive cluster bootstrap from a byte-identical saved input ledger. The script verifies original-source ledger SHA-256 and checks saved numerical output.
 
-- **Benchmark and scope:** 40 × 10 PV/DC-optimizer benchmark, 1971-dimensional physical tangent state space, and physical weak-grid boundary decisions.
-- **Sampled guard:** a 2.5% one-sided decision guard calibrated on 28 cases covered 89 held-out evaluated boundaries. This is **not** a universal certificate or a failure-probability guarantee.
-- **Transfer counterexample:** a retained localized-cloud case requires a 4.577% correction and defeats the 2.5% guard.
-- **Selected A6 check:** the Python explicit-DCO switching evidence supports finite-time growth at one selected point with averaged global VSC/PLL. It is not full EMT, HIL, hardware validation, or successful native A6 Simulink execution. A6 belonged to guard calibration and is not an independent held-out guard test.
-- **Bootstrap:** descriptive 10,000-replicate profile-cluster resampling of a fixed 89-case ledger, with deterministic parameter grids held fixed; not population inference.
-- **Source limitations:** some legacy drivers, fits, source reconstruction chains, and numerical diagnostics are unavailable. Any eventual public code selection must state what it can independently reproduce.
-- **External records:** measurements from other PV/inverter systems are not co-located hardware validation of the benchmark's physical stability boundary.
+**Inspect-and-adapt code, not a standalone result reproduction:** Selected Python A6 DCO-switching code, locked inputs, and saved finite-time result summaries. Full raw A6 state traces, retained original package manifests, stable replay records, diagnostic output and native MATLAB logs are not redistributed here. Original runner gates depend on missing records.
 
-See the manuscript and its Supplementary Material for the authoritative interpretation. A separately permissioned, unpublished Zenodo draft may be used for confidential editorial review; no secret link or access token will be published here.
+**Not reproduced by this repository:** Full benchmark equilibrium/Jacobian/boundary sweeps, measured-admittance vector-fitting source recovery, some historical order-55 and broken-symmetry diagnostics, physical distance summary driver, any native A6 Simulink successful trace, full EMT, HIL or hardware validation.
+
+**Calibration/evaluation:** A6 was held out from SPPK basis construction but included in guard calibration; the 89 held-out guard evaluations are separate. The frozen 2.5% empirical guard failed on a localized-cloud test needing 4.577%. Do not convert a zero-failure sample count into a population or universal certificate.

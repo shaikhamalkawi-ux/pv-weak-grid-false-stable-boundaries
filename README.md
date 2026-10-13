@@ -1,27 +1,34 @@
-# PV Weak-Grid Stability-Boundary Research
+# PV weak-grid stability-boundary research — public computational source
 
-Repository associated with the research manuscript:
+Associated manuscript (not yet published): **False-Stable Decisions in Reduced-Order PV Models Near Weak-Grid Stability Boundaries**.
 
-**False-Stable Decisions in Reduced-Order PV Models Near Weak-Grid Stability Boundaries**
+This public source selection contains the bounded Python DCO-switching code and frozen inputs for the selected A6 point, plus the fixed 89-case validation ledger and a portable Python script that replays the published descriptive profile-cluster bootstrap. Source files that were copied from the retained scientific staging archive are byte-identical unless explicitly identified as new public documentation or wrapper code.
 
-**Status: preliminary public project landing page.** The research manuscript is not represented here as accepted or published. The reproducibility files are being reviewed for author approval, software ownership, third-party redistribution rights, and release licensing. Until these checks are complete, this public repository does **not** provide a complete reproduction of the reported experiments.
+## Scientific scope
 
-## Scope
+- Benchmark: 40 parallel strings × 10 DCO positions; 1971-dimensional physical tangent FOM.
+- The one-sided **2.5% guard** was calibrated on 28 cases and covered **89 held-out sampled boundaries**, but it is **not a universal certificate**.
+- A localized-cloud geometry defeats the frozen guard: **4.577%** required correction.
+- The A6 Python implementation supports finite-time growth at one selected disagreement point. The global VSC/PLL remains **averaged**, the grid algebraic, and direct native A6 Simulink remains unresolved; **not full EMT or hardware validation**.
+- The chosen A6 case belongs to guard calibration, so it is not independent validation of that guard.
 
-The research examines the possibility that reduced-order grid-connected photovoltaic models preserve nominal behavior while shifting the physical weak-grid stability boundary. Its numerical and switching evidence has documented limitations. The underlying scientific claims and reproducibility boundaries are governed by the manuscript and its Supplementary Material.
+## What can be reproduced here
 
-## Availability
+**Bootstrap (directly runnable; no PV simulation):**
 
-The present repository contains a public project identifier only. **The software, input/output records, and confidential reviewer evidence have not been publicly released.** Do not treat the absence of those files as a reproducible package or a source of independent validation.
+```bash
+python -m pip install -r bootstrap/requirements.txt
+python bootstrap/run_public_cluster_bootstrap.py
+```
 
-Confidential peer-review evidence, if shared, must be accessed through an authorized reviewer channel rather than public GitHub links. No secret reviewer-preview URL or access token belongs in this repository.
+The script checks the original frozen CSV digest, samples complete two-level profiles with replacement within each stochastic family, fixes the deterministic parameter grids, and compares the output against stored V24 results. The 10,000-replicate statistics are descriptive conditional resampling sensitivity, not confidence intervals for an unspecified population or failure-probability guarantees.
 
-## Licensing
+**A6 source:** `a6_switching/` includes original Python switching code and a hash-locked MATLAB parameter export, but the selected publication subset omits full trace arrays and native MATLAB/Simulink session records. The original `scripts/run_switching.py` was designed for a larger retained evidence structure and its evidence gates refer to files not included here. Therefore **this selection is not a self-contained execution or independent verification of the 12-second A6 run**. For its exact protocol, numerical refinements and recorded rates, consult the Supplementary Material and authorized reviewer evidence.
 
-**No software or data license has yet been granted.** Until an explicit release is approved, no permission to redistribute third-party measurements or private analysis material should be inferred.
+## Rights and availability
 
-## Correspondence
+Raw third-party datasets are **not redistributed** here. See [DATA_SOURCES.md](DATA_SOURCES.md) for their official identifiers. The **journal manuscript and the confidential unpublished reviewer-draft link** are not in this public repository. The research includes explicit gaps in historical execution/source recovery and does not claim full end-to-end independent reproducibility.
 
-Ghassan Malkawi, corresponding author, Higher Colleges of Technology, United Arab Emirates.
+Public visibility is not a grant of an open-source license; see [LICENSE_STATUS.md](LICENSE_STATUS.md).
 
-*This landing page is administrative metadata; it introduces no scientific revision or new numerical results.*
+**Authors:** Ghassan Malkawi (corresponding), Ahmed Elsayed, Mohammed Alhagyan and Bakeel Hussein.

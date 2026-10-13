@@ -1,0 +1,27 @@
+{
+  "caseId": "G7_A6_SPPK35_OOS_MAX_FALSE_STABLE",
+  "profileUid": "20260913_random_02",
+  "delta": 0.3,
+  "Xg_pu": 0.65450145968996987,
+  "Cinv_F": 0.025,
+  "irradiance_by_position_Wm2": [
+    634.61251928290051,
+    1171.5811667770806,
+    891.35251990253232,
+    653.66375266359967,
+    1353.9094910147303,
+    932.90659188602785,
+    795.49664973420863,
+    858.62489926045646,
+    959.9255715593473,
+    1625.93486566116
+  ],
+  "vDC_initial_perturbation_fraction": 0.002,
+  "stopTime_s": 12,
+  "FOM_alpha_1_per_s": 0.062588657029885975,
+  "FOM_omega_rad_per_s": 6.8691087044246331,
+  "FOM_frequency_Hz": 1.0932526049447455,
+  "SPPK35_alpha_1_per_s": -0.063371121638124972,
+  "SPPK35_frequency_Hz": 1.0955901944850206,
+  "note": "Frozen comparison values only. No fitting or scientific classification performed in MATLAB."
+}

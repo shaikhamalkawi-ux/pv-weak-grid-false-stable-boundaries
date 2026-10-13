@@ -1,0 +1,231 @@
+{
+  "operation": "unchanged_archived_row_bootstrap_replay",
+  "source_code_sha256": "2dfeb85afabb17264fbec9fbf78f6a0c9174449f9e6fde2f399004e9198ae035",
+  "source_ledger_sha256": "25dc10cc6cd95a95299475f5c4211ff2a741e2a3eb41b22e3ac68b6ea813f2c6",
+  "expected_summary_sha256": "2b696b4580a383613eb70d09f08e970bae7f9474884dde93d2ee7c72f1e136c8",
+  "matches_archived": true,
+  "maximum_numeric_difference": 8.153200337090993e-17,
+  "numeric_comparisons": [
+    {
+      "field": "/n_cases",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/guard_fraction",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/guard_failures",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/max_required_guard",
+      "absolute_difference": 3.122502256758253e-17
+    },
+    {
+      "field": "/p95_required_guard",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/mean_required_guard",
+      "absolute_difference": 1.0842021724855044e-17
+    },
+    {
+      "field": "/mean_guarded_overshoot",
+      "absolute_difference": 5.204170427930421e-17
+    },
+    {
+      "field": "/min_guarded_overshoot",
+      "absolute_difference": 6.418476861114186e-17
+    },
+    {
+      "field": "/max_guarded_overshoot",
+      "absolute_difference": 2.7755575615628914e-17
+    },
+    {
+      "field": "/zero_failure_one_sided_95_binomial_upper_bound_iid_interpretation",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/bootstrap_seed",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/bootstrap_replicates",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/stratified_bootstrap_mean_required_guard_95ci/0",
+      "absolute_difference": 1.1709383462843448e-17
+    },
+    {
+      "field": "/stratified_bootstrap_mean_required_guard_95ci/1",
+      "absolute_difference": 1.1275702593849246e-17
+    },
+    {
+      "field": "/stratified_bootstrap_p95_required_guard_95ci/0",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/stratified_bootstrap_p95_required_guard_95ci/1",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/0/n",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/0/max_required_guard",
+      "absolute_difference": 3.122502256758253e-17
+    },
+    {
+      "field": "/by_family/0/p95_required_guard",
+      "absolute_difference": 8.153200337090993e-17
+    },
+    {
+      "field": "/by_family/0/mean_required_guard",
+      "absolute_difference": 4.119968255444917e-17
+    },
+    {
+      "field": "/by_family/0/guard_failures",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/0/mean_guarded_overshoot",
+      "absolute_difference": 4.163336342344337e-17
+    },
+    {
+      "field": "/by_family/1/n",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/1/max_required_guard",
+      "absolute_difference": 3.859759734048396e-17
+    },
+    {
+      "field": "/by_family/1/p95_required_guard",
+      "absolute_difference": 3.5778671692021646e-17
+    },
+    {
+      "field": "/by_family/1/mean_required_guard",
+      "absolute_difference": 2.417770844642675e-17
+    },
+    {
+      "field": "/by_family/1/guard_failures",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/1/mean_guarded_overshoot",
+      "absolute_difference": 4.85722573273506e-17
+    },
+    {
+      "field": "/by_family/2/n",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/2/max_required_guard",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/2/p95_required_guard",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/2/mean_required_guard",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/2/guard_failures",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/2/mean_guarded_overshoot",
+      "absolute_difference": 4.85722573273506e-17
+    },
+    {
+      "field": "/by_family/3/n",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/3/max_required_guard",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/3/p95_required_guard",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/3/mean_required_guard",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/3/guard_failures",
+      "absolute_difference": 0.0
+    },
+    {
+      "field": "/by_family/3/mean_guarded_overshoot",
+      "absolute_difference": 5.204170427930421e-17
+    }
+  ],
+  "result": {
+    "n_cases": 89,
+    "guard_fraction": 0.025,
+    "guard_failures": 0,
+    "max_required_guard": 0.0142367757190511,
+    "p95_required_guard": 0.01293516002458638,
+    "mean_required_guard": 0.003634140707076968,
+    "mean_guarded_overshoot": 0.021374720046689846,
+    "min_guarded_overshoot": 0.0106121416010754,
+    "max_guarded_overshoot": 0.0268438037467909,
+    "zero_failure_one_sided_95_binomial_upper_bound_iid_interpretation": 0.03309972123627414,
+    "bootstrap_seed": 20260917,
+    "bootstrap_replicates": 10000,
+    "stratified_bootstrap_mean_required_guard_95ci": [
+      0.002889090334276522,
+      0.004433124417096149
+    ],
+    "stratified_bootstrap_p95_required_guard_95ci": [
+      0.0083523508759115,
+      0.0134877569875351
+    ],
+    "by_family": [
+      {
+        "family": "Cinv_axis",
+        "n": 21,
+        "max_required_guard": 0.0142367757190511,
+        "p95_required_guard": 0.0119777237786253,
+        "mean_required_guard": 0.0036440079910819473,
+        "guard_failures": 0,
+        "mean_guarded_overshoot": 0.02134798216535049
+      },
+      {
+        "family": "PLL_axis",
+        "n": 4,
+        "max_required_guard": 0.0013284143795604,
+        "p95_required_guard": 0.00127039286086533,
+        "mean_required_guard": 0.00061681983921855,
+        "guard_failures": 0,
+        "mean_guarded_overshoot": 0.024829399153518776
+      },
+      {
+        "family": "correlated_positive",
+        "n": 32,
+        "max_required_guard": 0.0130420326631977,
+        "p95_required_guard": 0.009508110879930783,
+        "mean_required_guard": 0.0033043154739219975,
+        "guard_failures": 0,
+        "mean_guarded_overshoot": 0.02174330294192331
+      },
+      {
+        "family": "unconstrained_random_new_seeds",
+        "n": 32,
+        "max_required_guard": 0.0135275084047219,
+        "p95_required_guard": 0.013231647624854005,
+        "mean_required_guard": 0.004334655643585972,
+        "guard_failures": 0,
+        "mean_guarded_overshoot": 0.020591848997731723
+      }
+    ],
+    "caveat": "Binomial and bootstrap summaries are descriptive under sampling assumptions; they are not a global stability or probability guarantee."
+  }
+}
