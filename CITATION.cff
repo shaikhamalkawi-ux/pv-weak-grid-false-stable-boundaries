@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite the peer-reviewed article if and when published. No article DOI has been assigned to this repository."
+title: "False-Stable Decisions in Reduced-Order PV Models Near Weak-Grid Stability Boundaries"
+type: software
+authors:
+  - family-names: Malkawi
+    given-names: Ghassan
+  - family-names: Elsayed
+    given-names: Ahmed
+  - family-names: Alhagyan
+    given-names: Mohammed
+  - family-names: Hussein
+    given-names: Bakeel
