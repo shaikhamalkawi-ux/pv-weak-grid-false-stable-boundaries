@@ -4,6 +4,10 @@ Associated manuscript (not yet published): **False-Stable Decisions in Reduced-O
 
 This public source selection contains the bounded Python DCO-switching code and frozen inputs for the selected A6 point, plus the fixed 89-case validation ledger and a portable Python script that replays the published descriptive profile-cluster bootstrap. Source files that were copied from the retained scientific staging archive are byte-identical unless explicitly identified as new public documentation or wrapper code.
 
+## For reviewers
+
+Start with the [public reviewer guide](REVIEWER_GUIDE.md) for direct links to the available replay script, scoped A6 evidence, source limitations, and data-source metadata. The public repository is intentionally narrower than the complete manuscript's historical evidence and contains no private Zenodo reviewer credentials.
+
 ## Scientific scope
 
 - Benchmark: 40 parallel strings × 10 DCO positions; 1971-dimensional physical tangent FOM.
